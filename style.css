@@ -33,6 +33,7 @@ body {
     color: white;
     line-height: 160%;
     gap: 3.2rem;
+    margin: 10%;
 }
 
 #app {
