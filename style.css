@@ -73,7 +73,7 @@ body {
 
 .bottom {
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -186,6 +186,8 @@ svg circle:nth-child(2) {
 .weekly-sell .left,
 .weekly-sell .right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .left .grid {
@@ -222,8 +224,8 @@ svg circle:nth-child(2) {
     place-content: center;
     display: flex;
     align-items: flex-end;
-    gap: calc(3vw + 1rem);
-    /* gap: 5.9rem; */
+    /* gap: calc(3vw + 1rem); */
+    gap: 4vw;
     position: relative;
 }
 
